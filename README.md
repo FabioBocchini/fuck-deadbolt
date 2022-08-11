@@ -21,9 +21,9 @@ To automate the backup process you need to have sudo privileges
 ```shell
 git clone https://github.com/FabioBocchini/fuck-deadbolt.git/ 
 # if you dont have git installed you can just download the directory
-`mkdir /etc/fuck-deadbolt && \
+mkdir /etc/fuck-deadbolt && \
   mv fuck-deadbolt/fuck-deadbolt.config /etc/fuck-deadbolt/fuck-deadbolt.config && \
-  mv fuck-deadbolt/fuck-deadbolt.sh $HOME/.local/bin`
+  mv fuck-deadbolt/fuck-deadbolt.sh $HOME/.local/bin
 ```
 
 if you don't have sudo privileges you won't be able to create `/etc/fuck-deadbolt`. Then just save the config file where
